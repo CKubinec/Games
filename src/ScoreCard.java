@@ -21,8 +21,8 @@ public class ScoreCard {
             int winningStroke;
             String stroke = "";
             if (rallyCount == 0){
-                player1Wins.add(-1);
-                player2Wins.add(-1);
+                player1Wins.add(0);
+                player2Wins.add(0);
                 winningStrokes.add("");
                 rallyCount++;
                 rally();
