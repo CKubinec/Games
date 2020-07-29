@@ -13,7 +13,10 @@ public class RockPaperScissorLizardSpock {
         while(noWinner){
             String player1Attack = getAttack();
             String player2Attack = getAttack();
-            
+
+            if(player1Attack.equals("Rock")){
+                
+            }
         }
     }
 
