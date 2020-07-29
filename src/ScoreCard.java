@@ -71,8 +71,10 @@ public class ScoreCard {
             }
             winningStrokes.add(rallyCount, stroke);
             rallyCount++;
+            System.out.println(player1Score);
             printScore();
         }
+        System.out.println("GAME OVER");
     }
 
     public String getStroke(int number){
