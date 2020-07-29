@@ -18,6 +18,9 @@ public class RockPaperScissorLizardSpock {
                 if(player2Attack.equals("Paper")){
                     System.out.println("Player 2s Paper covers Player 1s Rock");
                     player2Wins++;
+                } else if (player2Attack.equals("Lizard")){
+                    System.out.println("Player 1s Rock crushes Player 2s Lizard");
+                    player1Wins++;
                 } else if (player2Attack.equals(""))
             }
         }
