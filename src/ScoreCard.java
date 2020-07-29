@@ -75,8 +75,8 @@ public class ScoreCard {
             printScore();
         }
         System.out.println("GAME OVER");
-        maxInARowWins(player1Wins);
-        maxInARowWins(player2Wins);
+        System.out.print("Player 1 had "+ maxInARowWins(player1Wins) + " in a row!" );
+        System.out.print("Player 2 had "+ maxInARowWins(player2Wins) + " in a row!" );
         System.exit(0);
     }
 
@@ -106,7 +106,7 @@ public class ScoreCard {
         }
     }
 
-    public void maxInARowWins(ArrayList<Integer> array){
+    public int maxInARowWins(ArrayList<Integer> array){
         int max = 0;
         int currentCount = 0;
         for (int i = 0; i < array.size(); i++) {
@@ -119,5 +119,6 @@ public class ScoreCard {
                 currentCount = 0;
             }
         }
+        return max;
     }
 }
