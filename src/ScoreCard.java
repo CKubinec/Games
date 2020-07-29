@@ -82,7 +82,12 @@ public class ScoreCard {
         System.out.println("GAME OVER");
         System.out.println("Player 1 had "+ maxInARowWins(player1Wins) + " points in a row!" );
         System.out.println("Player 2 had "+ maxInARowWins(player2Wins) + " points in a row!" );
+        System.out.print("Player 1 had ");
         bestStroke(player1Wins, winningStrokes);
+        System.out.print(" this Match which was there max!\n");
+        System.out.print("Player 2 had ");
+        bestStroke(player2Wins, winningStrokes);
+        System.out.print(" this Match which was there max!\n");
         System.exit(0);
     }
 
@@ -134,6 +139,7 @@ public class ScoreCard {
         int net = 0;
         int drop = 0;
         int drive = 0;
+        String stroke;
         for (int i = 1; i < winningStrokes.size(); i++) {
             if (player.get(i) != null){
                 switch (winningStrokes.get(i)){
@@ -156,6 +162,17 @@ public class ScoreCard {
         array.add(drop);
         array.add(drive);
         int largest = Collections.max(array);
-
+        if (largest == smash){
+            stroke = "Smashs";
+        } else if (largest == slice){
+            stroke = "Slices";
+        } else if (largest == net){
+            stroke = "Nets";
+        } else if (largest == drop){
+            stroke = "Drops";
+        } else {
+            stroke = "Drives";
+        }
+        System.out.print(largest + " " + stroke);
     }
 }
