@@ -27,8 +27,8 @@ public class RockPaperScissorLizardSpock {
             Thread t2 = new Thread(player2);
             t2.start();
 
-            if (player1Attack.equals("Rock")) {
-                switch (player2Attack) {
+            if (player1.attackName.equals("Rock")) {
+                switch (player2.attackName) {
                     case "Paper":
                         System.out.println("Player 2s Paper covers Player 1s Rock");
                         player2Wins++;
@@ -52,8 +52,8 @@ public class RockPaperScissorLizardSpock {
                         break;
                 }
             }
-            if (player1Attack.equals("Scissors")) {
-                switch (player2Attack) {
+            if (player1.attackName.equals("Scissors")) {
+                switch (player2.attackName) {
                     case "Paper":
                         System.out.println("Player 1s Scissors cuts Player 2s Paper");
                         player1Wins++;
@@ -77,8 +77,8 @@ public class RockPaperScissorLizardSpock {
                         break;
                 }
             }
-            if (player1Attack.equals("Spock")) {
-                switch (player2Attack) {
+            if (player1.attackName.equals("Spock")) {
+                switch (player2.attackName) {
                     case "Paper":
                         System.out.println("Player 2s Paper disproves Player 1s Spock");
                         player2Wins++;
@@ -102,8 +102,8 @@ public class RockPaperScissorLizardSpock {
                         break;
                 }
             }
-            if (player1Attack.equals("Lizard")) {
-                switch (player2Attack) {
+            if (player1.attackName.equals("Lizard")) {
+                switch (player2.attackName) {
                     case "Paper":
                         System.out.println("Player 1s Lizard eats Player 2s Paper");
                         player1Wins++;
@@ -127,8 +127,8 @@ public class RockPaperScissorLizardSpock {
                         break;
                 }
             }
-            if (player1Attack.equals("Paper")) {
-                switch (player2Attack) {
+            if (player1.attackName.equals("Paper")) {
+                switch (player2.attackName) {
                     case "Paper":
                         System.out.println("Draw!!");
                         break;
