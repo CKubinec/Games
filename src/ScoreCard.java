@@ -12,6 +12,7 @@ public class ScoreCard {
     }
 
     public void rally(){
+        int rallyCount = 0;
         
     }
 }
