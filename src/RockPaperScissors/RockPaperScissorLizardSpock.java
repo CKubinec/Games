@@ -161,5 +161,6 @@ public class RockPaperScissorLizardSpock {
             }
 
         }
+        System.exit(0);
     }
 }

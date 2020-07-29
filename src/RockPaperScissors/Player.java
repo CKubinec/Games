@@ -4,7 +4,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class Player {
 
     public Player() {
-        
+
     }
     public String getAttack() {
         int random = ThreadLocalRandom.current().nextInt(1, 6);
