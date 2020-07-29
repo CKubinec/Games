@@ -75,6 +75,7 @@ public class ScoreCard {
             printScore();
         }
         System.out.println("GAME OVER");
+        System.exit(0);
     }
 
     public String getStroke(int number){
