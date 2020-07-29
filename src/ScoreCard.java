@@ -96,8 +96,8 @@ public class ScoreCard {
 
     public void printScore(){
         for (int i = 0; i < rallyCount; i++) {
-            System.out.printf("%-30s %1.7s %1.7s %s%n", "Rally #", "Player 1", "Player 2", "Winning Stroke");
-            System.out.printf("%-30s %1.7s %1.7s %s%n", i, player1Wins.get(i), player2Wins.get(i), winningStrokes.get(i));
+            System.out.printf("%-10s %1.7s %1.7s %s%n", "Rally #", "Player 1", "Player 2", "Winning Stroke");
+            System.out.printf("%-10s %1.7s %1.7s %s%n", i, player1Wins.get(i), player2Wins.get(i), winningStrokes.get(i));
         }
     }
 }
