@@ -33,9 +33,9 @@ public class RockPaperScissorLizardSpock {
                 } else if (i == 1){
                     System.out.print(", Paper");
                 } else if (i == 2){
-                    System.out.print(", Scissors ");
+                    System.out.print(", Scissors");
                 } else if (i == 3){
-                    System.out.print(", Lizard ");
+                    System.out.print(", Lizard");
                 } else if (i == 4){
                     System.out.print(", Spock!\n");
                 }
