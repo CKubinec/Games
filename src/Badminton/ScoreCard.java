@@ -2,7 +2,6 @@ package Badminton;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Scanner;
 
 public class ScoreCard {
     private int player1Score;
@@ -10,7 +9,6 @@ public class ScoreCard {
     private ArrayList<Integer> player1Wins = new ArrayList<>();
     private ArrayList<Integer> player2Wins = new ArrayList<>();
     private ArrayList<String> winningStrokes = new ArrayList<>();
-    Scanner scanner = new Scanner(System.in);
     private int rallyCount = 0;
 
     public ScoreCard() {
@@ -68,20 +66,33 @@ public class ScoreCard {
     }
 
 
-    public void printScore(){
+    public void printScore() {
         System.out.printf("%-10s %1.7s %1.7s %s%n", "Rally #", "Player1", "Player2", "Winning Stroke");
         for (int i = 0; i < rallyCount; i++) {
             System.out.printf("%-10s %5s %7s %10s%n", i, player1Wins.get(i), player2Wins.get(i), winningStrokes.get(i));
         }
     }
 
-    public int maxInARowWins(ArrayList<Integer> array){
+    public void printStats() {
+        System.out.println("GAME OVER");
+        System.out.println("Player 1 had " + maxInARowWins(getPlayer1Wins()) + " points in a row!");
+        System.out.println("Player 2 had " + maxInARowWins(getPlayer2Wins()) + " points in a row!");
+        System.out.print("Player 1 had ");
+        bestStroke(getPlayer1Wins(), getWinningStrokes());
+        System.out.print(" this Match which was there max!\n");
+        System.out.print("Player 2 had ");
+        bestStroke(getPlayer2Wins(), getWinningStrokes());
+        System.out.print(" this Match which was there max!\n");
+        System.exit(0);
+    }
+
+    public int maxInARowWins(ArrayList<Integer> array) {
         int max = 0;
         int currentCount = 0;
         for (int i = 0; i < array.size(); i++) {
-            if (array.get(i) != null){
+            if (array.get(i) != null) {
                 currentCount++;
-                if (currentCount > max){
+                if (currentCount > max) {
                     max = currentCount;
                 }
             } else {
@@ -91,7 +102,7 @@ public class ScoreCard {
         return max;
     }
 
-    public void bestStroke(ArrayList<Integer> player, ArrayList<String> winningStrokes){
+    public void bestStroke(ArrayList<Integer> player, ArrayList<String> winningStrokes) {
         int smash = 0;
         int slice = 0;
         int net = 0;
@@ -99,17 +110,22 @@ public class ScoreCard {
         int drive = 0;
         String stroke;
         for (int i = 1; i < winningStrokes.size(); i++) {
-            if (player.get(i) != null){
-                switch (winningStrokes.get(i)){
-                    case "Smash": smash++;
-                    break;
-                    case "Slice": slice++;
-                    break;
-                    case "Net": net++;
-                    break;
-                    case "Drop": drop++;
-                    break;
-                    case "Drive": drive++;
+            if (player.get(i) != null) {
+                switch (winningStrokes.get(i)) {
+                    case "Smash":
+                        smash++;
+                        break;
+                    case "Slice":
+                        slice++;
+                        break;
+                    case "Net":
+                        net++;
+                        break;
+                    case "Drop":
+                        drop++;
+                        break;
+                    case "Drive":
+                        drive++;
                 }
             }
         }
@@ -120,13 +136,13 @@ public class ScoreCard {
         array.add(drop);
         array.add(drive);
         int largest = Collections.max(array);
-        if (largest == smash){
+        if (largest == smash) {
             stroke = "Smashs";
-        } else if (largest == slice){
+        } else if (largest == slice) {
             stroke = "Slices";
-        } else if (largest == net){
+        } else if (largest == net) {
             stroke = "Nets";
-        } else if (largest == drop){
+        } else if (largest == drop) {
             stroke = "Drops";
         } else {
             stroke = "Drives";

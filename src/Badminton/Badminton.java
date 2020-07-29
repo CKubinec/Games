@@ -2,21 +2,38 @@ package Badminton;
 
 import java.util.Scanner;
 
+/**
+ * The type Badminton.
+ */
 public class Badminton {
+    /**
+     * The Score card.
+     */
     ScoreCard scoreCard;
+    /**
+     * The Scanner.
+     */
     Scanner scanner = new Scanner(System.in);
 
+    /**
+     * Instantiates a new Badminton match.
+     *
+     * @param scoreCard the score card
+     */
     public Badminton(ScoreCard scoreCard) {
         this.scoreCard = scoreCard;
     }
 
+    /**
+     * Rally. Where the user will be able to enter all the data for the game there playing
+     */
     public void rally() {
         boolean run = true;
         while (run) {
             int winningPlayer;
             int winningStroke;
             String stroke = "";
-            if (scoreCard.getRallyCount() == 0){
+            if (scoreCard.getRallyCount() == 0) {
                 scoreCard.getPlayer1Wins().add(scoreCard.getRallyCount(), 0);
                 scoreCard.getPlayer2Wins().add(scoreCard.getRallyCount(), 0);
                 scoreCard.getWinningStrokes().add(scoreCard.getRallyCount(), "");
@@ -67,35 +84,39 @@ public class Badminton {
             scoreCard.getWinningStrokes().add(scoreCard.getRallyCount(), stroke);
             scoreCard.setRallyCount(scoreCard.getRallyCount() + 1);
             scoreCard.printScore();
-            if (scoreCard.getPlayer1Score() == 21 || scoreCard.getPlayer2Score() == 21){
+            if (scoreCard.getPlayer1Score() == 21 || scoreCard.getPlayer2Score() == 21) {
                 run = false;
             }
         }
-        System.out.println("GAME OVER");
-        System.out.println("Player 1 had "+ scoreCard.maxInARowWins(scoreCard.getPlayer1Wins()) + " points in a row!" );
-        System.out.println("Player 2 had "+ scoreCard.maxInARowWins(scoreCard.getPlayer2Wins()) + " points in a row!" );
-        System.out.print("Player 1 had ");
-        scoreCard.bestStroke(scoreCard.getPlayer1Wins(), scoreCard.getWinningStrokes());
-        System.out.print(" this Match which was there max!\n");
-        System.out.print("Player 2 had ");
-        scoreCard.bestStroke(scoreCard.getPlayer2Wins(), scoreCard.getWinningStrokes());
-        System.out.print(" this Match which was there max!\n");
-        System.exit(0);
+        scoreCard.printStats();
     }
-    public String getStroke(int number){
+
+    /**
+     * Gets the type of stroke they used.
+     *
+     * @param number the number the user inputted
+     * @return the type of stroke
+     */
+    public String getStroke(int number) {
         String stroke;
-        switch (number){
-            case 1: stroke = "Smash";
+        switch (number) {
+            case 1:
+                stroke = "Smash";
                 break;
-            case 2: stroke = "Slice";
+            case 2:
+                stroke = "Slice";
                 break;
-            case 3: stroke = "Net";
+            case 3:
+                stroke = "Net";
                 break;
-            case 4: stroke = "Drop";
+            case 4:
+                stroke = "Drop";
                 break;
-            case 5: stroke = "Drive";
+            case 5:
+                stroke = "Drive";
                 break;
-            default: stroke = "None";
+            default:
+                stroke = "None";
                 break;
         }
         return stroke;

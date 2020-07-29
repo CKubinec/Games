@@ -5,8 +5,8 @@ public class RockPaperScissorLizardSpock {
     Player player2;
 
     public RockPaperScissorLizardSpock(Player player1, Player player2) {
-       this.player1 = player1;
-       this.player2 = player2;
+        this.player1 = player1;
+        this.player2 = player2;
     }
 
     public void play() {
@@ -15,7 +15,7 @@ public class RockPaperScissorLizardSpock {
         int player2Wins = 0;
         boolean noWinner = true;
         while (noWinner) {
-            if (rounds == 6){
+            if (rounds == 6) {
                 noWinner = false;
                 System.out.println("Max Rounds hit!!!");
                 System.out.println("Final Score:");
@@ -152,11 +152,11 @@ public class RockPaperScissorLizardSpock {
                 }
             }
             rounds++;
-            if (player1Wins == 4){
+            if (player1Wins == 4) {
                 noWinner = false;
                 System.out.println("Player 1 Wins!!!!");
             }
-            if (player2Wins == 4){
+            if (player2Wins == 4) {
                 noWinner = false;
                 System.out.println("Player 2 Wins!!!!");
             }
