@@ -14,6 +14,10 @@ public class RockPaperScissorLizardSpock {
         int player2Wins = 0;
         boolean noWinner = true;
         while (noWinner) {
+            Thread t = new Thread(player1);
+            t.start();
+            Thread t2 = new Thread(player2);
+            t2.start();
             if (rounds == 6){
                 noWinner = false;
                 System.out.println("Max Rounds hit!!!");
@@ -22,10 +26,6 @@ public class RockPaperScissorLizardSpock {
                 System.out.println("Player 2: " + player2Wins);
                 System.exit(0);
             }
-            Thread t = new Thread(player1);
-            t.start();
-            Thread t2 = new Thread(player2);
-            t2.start();
 
             if (player1.attackName.equals("Rock")) {
                 switch (player2.attackName) {
