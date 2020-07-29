@@ -7,15 +7,18 @@ public class RockPaperScissorLizardSpock {
     }
 
     public void play(){
-        int player1Wins;
-        int player2Wins;
+        int player1Wins = 0;
+        int player2Wins = 0;
         boolean noWinner = true;
         while(noWinner){
             String player1Attack = getAttack();
             String player2Attack = getAttack();
 
             if(player1Attack.equals("Rock")){
-                
+                if(player2Attack.equals("Paper")){
+                    System.out.println("Player 2s Paper covers Player 1s Rock");
+                    player2Wins++;
+                } else if (player2Attack.equals(""))
             }
         }
     }
