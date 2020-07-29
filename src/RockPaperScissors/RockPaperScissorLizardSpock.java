@@ -1,14 +1,32 @@
 package RockPaperScissors;
 
+/**
+ * The game Rock paper scissor lizard spock.
+ */
 public class RockPaperScissorLizardSpock {
+    /**
+     * The Player 1.
+     */
     Player player1;
+    /**
+     * The Player 2.
+     */
     Player player2;
 
+    /**
+     * Instantiates a new Rock paper scissor lizard spock.
+     *
+     * @param player1 the player 1
+     * @param player2 the player 2
+     */
     public RockPaperScissorLizardSpock(Player player1, Player player2) {
         this.player1 = player1;
         this.player2 = player2;
     }
 
+    /**
+     * Method to start the game!
+     */
     public void play() {
         int rounds = 0;
         int player1Wins = 0;
