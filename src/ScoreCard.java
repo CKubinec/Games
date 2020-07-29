@@ -17,7 +17,7 @@ public class ScoreCard {
 
 
     public void rally() {
-        while (player1Score != 21) {
+        while (player1Score == 21 || player2Score == 21) {
             int winningPlayer;
             int winningStroke;
             String stroke = "";
@@ -69,7 +69,7 @@ public class ScoreCard {
                     winningPlayer = scanner.nextInt();
                 }
             }
-            player1Score = 21;
+            player1Score = 20;
             winningStrokes.add(rallyCount, stroke);
             rallyCount++;
             System.out.println(player1Score);
