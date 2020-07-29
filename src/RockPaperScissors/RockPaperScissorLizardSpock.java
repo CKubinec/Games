@@ -27,7 +27,11 @@ public class RockPaperScissorLizardSpock {
             t.start();
             Thread t2 = new Thread(player2);
             t2.start();
-
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e){
+                e.printStackTrace();
+            }
             if (player1.attackName.equals("Rock")) {
                 switch (player2.attackName) {
                     case "Paper":
