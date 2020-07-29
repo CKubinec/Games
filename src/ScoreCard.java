@@ -16,9 +16,8 @@ public class ScoreCard {
     }
 
     public static void main(String[] args) {
-       // ScoreCard scoreCard = new ScoreCard();
-       // scoreCard.rally();
-        System.out.println("hasda");
+       ScoreCard scoreCard = new ScoreCard();
+       scoreCard.rally();
     }
 
     public void rally() {
