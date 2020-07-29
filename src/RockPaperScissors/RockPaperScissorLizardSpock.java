@@ -4,6 +4,7 @@ package RockPaperScissors;
  * The game Rock paper scissor lizard spock.
  *
  * @author Craig Kubinec ID:3433193
+ * @assignment FINAL EXAM
  * @date July 29 2020
  */
 public class RockPaperScissorLizardSpock {
@@ -48,21 +49,21 @@ public class RockPaperScissorLizardSpock {
             t.start();
             Thread t2 = new Thread(player2);
             t2.start();
-            for (int i = 0; i < 5; i++){
-                if (i == 0){
+            for (int i = 0; i < 5; i++) {
+                if (i == 0) {
                     System.out.print("Rock");
-                } else if (i == 1){
+                } else if (i == 1) {
                     System.out.print(", Paper");
-                } else if (i == 2){
+                } else if (i == 2) {
                     System.out.print(", Scissors");
-                } else if (i == 3){
+                } else if (i == 3) {
                     System.out.print(", Lizard");
                 } else {
                     System.out.print(", Spock!\n");
                 }
                 try {
                     Thread.sleep(500);
-                } catch (Exception e){
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
             }

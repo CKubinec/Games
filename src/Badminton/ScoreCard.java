@@ -7,7 +7,7 @@ import java.util.Collections;
  * The type Score card.
  *
  * @author Craig Kubinec ID:3433193
- * @
+ * @assignment FINAL EXAM
  * @date July 29 2020
  */
 public class ScoreCard {

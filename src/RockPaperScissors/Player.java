@@ -6,6 +6,7 @@ import java.util.concurrent.ThreadLocalRandom;
  * The type Player.
  *
  * @author Craig Kubinec ID:3433193
+ * @assignment FINAL EXAM
  * @date July 29 2020
  */
 public class Player implements Runnable {
