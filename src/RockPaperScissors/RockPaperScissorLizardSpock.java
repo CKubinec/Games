@@ -25,6 +25,8 @@ public class RockPaperScissorLizardSpock {
             }
             player1.getAttack();
             player2.getAttack();
+            Thread t = new Thread(player1);
+            t.start();
 
             if (player1.attackName.equals("Rock")) {
                 switch (player2.attackName) {

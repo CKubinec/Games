@@ -11,7 +11,7 @@ public class Player implements Runnable {
     }
 
     public synchronized void run() {
-
+        
     }
 
     public synchronized void getAttack() {
