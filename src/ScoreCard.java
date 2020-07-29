@@ -156,6 +156,6 @@ public class ScoreCard {
         array.add(drop);
         array.add(drive);
         int largest = Collections.max(array);
-        
+
     }
 }
