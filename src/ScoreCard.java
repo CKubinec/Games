@@ -34,7 +34,7 @@ public class ScoreCard {
             }
             System.out.println("Which player wins rally " + rallyCount + "?");
             System.out.print("1 - Player1\n" +
-                    "2- Player2\n");
+                    "2 - Player2\n");
             winningPlayer = scanner.nextInt();
             boolean properSelection = true;
             while (properSelection)
@@ -47,6 +47,7 @@ public class ScoreCard {
                             "4. Drop\n" +
                             "5. Drive\n");
                     winningStroke = scanner.nextInt();
+                    stroke = getStroke(winningStroke);
                 } else if (winningPlayer == 2) {
                     player2Score++;
                     System.out.println("How did Player2 win this rally?");
@@ -56,14 +57,7 @@ public class ScoreCard {
                             "4. Drop\n" +
                             "5. Drive\n");
                     winningStroke = scanner.nextInt();
-                    switch (winningStroke){
-                        case 1: stroke = "Smash";
-                        case 2: stroke = "Slice";
-                        case 3: stroke = "Net";
-                        case 4: stroke = "Drop";
-                        case 5: stroke = "Drive";
-                        default: stroke = "None";
-                    }
+                    stroke = getStroke(winningStroke);
                 } else {
                     System.out.println("Improper selection");
                     properSelection = false;
@@ -75,5 +69,24 @@ public class ScoreCard {
                 winningStrokes.add(rallyCount, stroke);
 
         }
+    }
+
+    public String getStroke(int number){
+        String stroke;
+        switch (number){
+            case 1: stroke = "Smash";
+                break;
+            case 2: stroke = "Slice";
+                break;
+            case 3: stroke = "Net";
+                break;
+            case 4: stroke = "Drop";
+                break;
+            case 5: stroke = "Drive";
+                break;
+            default: stroke = "None";
+                break;
+        }
+        return stroke;
     }
 }

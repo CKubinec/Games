@@ -34,7 +34,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
@@ -86,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596043958910</updated>
-      <workItem from="1596043961009" duration="3232000" />
+      <workItem from="1596043961009" duration="3733000" />
     </task>
     <servers />
   </component>
@@ -102,30 +102,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596046736410" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1596047204283">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1596047395079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596047204283" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1596047204283">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596047395079" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1596047395079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596047204283" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1596047204282">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596047395079" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1596047395079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596047204282" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1596047204283">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596047395079" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1596047395079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596047204283" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596047395079" />
     <state x="540" y="255" key="IDE.errors.dialog" timestamp="1596046789418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="255" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596046789418" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1596046478320">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1596047241615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596046478320" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596047241615" />
     <state x="755" y="267" key="refactoring.ChangeSignatureDialog" timestamp="1596046757637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
