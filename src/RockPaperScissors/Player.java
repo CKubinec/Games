@@ -10,15 +10,7 @@ public class Player implements Runnable{
     }
 
     public synchronized void run() {
-        while (true) {
-            try {
-                wait();
-            } catch (InterruptedException e){
-                e.printStackTrace();
-            }
-            attackName = getAttack();
-            notify();
-        }
+        
     }
     public synchronized String getAttack() {
         int random = ThreadLocalRandom.current().nextInt(1, 6);
