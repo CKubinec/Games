@@ -4,18 +4,28 @@ import java.util.Scanner;
 public class ScoreCard {
     private int player1Score;
     private int player2Score;
-    private ArrayList<> scoreList;
+    private ArrayList<Integer> player1Wins;
+    private ArrayList<Integer> player2Wins;
+    private ArrayList<String> winningStrokes;
     Scanner scanner = new Scanner(System.in);
 
-    public ScoreCard(ArrayList<String> scoreList) {
-        this.scoreList = scoreList;
+    public ScoreCard() {
+
     }
 
     public void rally(){
         while (player1Score != 21 || player2Score != 21) {
-            int rallyCount = 1;
+            int rallyCount = 0;
             int winningPlayer;
             int winningStroke;
+            String stroke = "";
+            if (rallyCount == 0){
+                player1Wins.add(null);
+                player2Wins.add(null);
+                winningStrokes.add(null);
+                rallyCount++;
+                rally();
+            }
             System.out.println("Which player wins rally " + rallyCount + "?");
             System.out.print("1 - Player1\n" +
                     "2-Player2");
@@ -38,6 +48,14 @@ public class ScoreCard {
                             "4. Drop\n" +
                             "5. Drive\n");
                     winningStroke = scanner.nextInt();
+                    switch (winningStroke){
+                        case 1: stroke = "Smash";
+                        case 2: stroke = "Slice";
+                        case 3: stroke = "Net";
+                        case 4: stroke = "Drop";
+                        case 5: stroke = "Drive";
+                        default: stroke = "None";
+                    }
                 } else {
                     System.out.println("Improper selection");
                     properSelection = false;
@@ -46,7 +64,7 @@ public class ScoreCard {
                             "2-Player2");
                     winningPlayer = scanner.nextInt();
                 }
-
+                winningStrokes.add(stroke);
         }
     }
 }
