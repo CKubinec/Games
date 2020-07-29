@@ -69,7 +69,6 @@ public class ScoreCard {
                     winningPlayer = scanner.nextInt();
                 }
             }
-            player1Score = 20;
             winningStrokes.add(rallyCount, stroke);
             rallyCount++;
             System.out.println(player1Score);
