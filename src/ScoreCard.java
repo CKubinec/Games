@@ -71,6 +71,7 @@ public class ScoreCard {
             }
             winningStrokes.add(rallyCount, stroke);
             rallyCount++;
+            printScore();
         }
     }
 
