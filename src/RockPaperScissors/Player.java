@@ -10,30 +10,28 @@ public class Player implements Runnable{
     }
 
     public synchronized void run() {
-        attackName = getAttack();
+
     }
-    public synchronized String getAttack() {
+    public synchronized void getAttack() {
         int random = ThreadLocalRandom.current().nextInt(1, 6);
-        String attack;
         switch (random) {
             case 1:
-                attack = "Rock";
+                attackName = "Rock";
                 break;
             case 2:
-                attack = "Paper";
+                attackName = "Paper";
                 break;
             case 3:
-                attack = "Scissors";
+                attackName = "Scissors";
                 break;
             case 4:
-                attack = "Lizard";
+                attackName = "Lizard";
                 break;
             case 5:
-                attack = "Spock";
+                attackName = "Spock";
                 break;
             default:
-                attack = "Nothing";
+                attackName = "Nothing";
         }
-        return attack;
     }
 }
