@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
@@ -156,8 +155,7 @@ public class ScoreCard {
         array.add(net);
         array.add(drop);
         array.add(drive);
-        
-        int largest = Collections.max(Arrays.asList(slice, smash, net, drop, drive));
+        int largest = Collections.max(array);
         System.out.println();
         System.out.println(largest);
     }
