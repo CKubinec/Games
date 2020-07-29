@@ -6,6 +6,7 @@ import java.util.Scanner;
  * The type Badminton.
  *
  * @author Craig Kubinec ID:3433193
+ * @date July 29 2020
  */
 public class Badminton {
     /**

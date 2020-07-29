@@ -7,6 +7,8 @@ import java.util.Collections;
  * The type Score card.
  *
  * @author Craig Kubinec ID:3433193
+ * @
+ * @date July 29 2020
  */
 public class ScoreCard {
     private int player1Score;

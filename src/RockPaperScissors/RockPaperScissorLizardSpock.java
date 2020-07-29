@@ -4,6 +4,7 @@ package RockPaperScissors;
  * The game Rock paper scissor lizard spock.
  *
  * @author Craig Kubinec ID:3433193
+ * @date July 29 2020
  */
 public class RockPaperScissorLizardSpock {
     /**
