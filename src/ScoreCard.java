@@ -95,6 +95,6 @@ public class ScoreCard {
     }
 
     public void printScore(){
-        System.out.printf("");
+        System.out.printf ("%-30s %1.7f %s%n", , , );
     }
 }
