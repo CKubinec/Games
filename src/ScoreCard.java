@@ -14,7 +14,7 @@ public class ScoreCard {
         player2Score = 0;
     }
 
-    public void rally(){
+    public void rally() {
         int rallyCount = 0;
         while (player1Score != 21 || player2Score != 21) {
             int winningPlayer;
