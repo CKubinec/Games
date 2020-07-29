@@ -37,7 +37,7 @@ public class ScoreCard {
                     "2 - Player2\n");
             winningPlayer = scanner.nextInt();
             boolean properSelection = true;
-            while (properSelection)
+            while (properSelection) {
                 if (winningPlayer == 1) {
                     player1Score++;
                     System.out.println("How did Player1 win this rally?");
@@ -66,6 +66,7 @@ public class ScoreCard {
                             "2-Player2");
                     winningPlayer = scanner.nextInt();
                 }
+            }
                 winningStrokes.add(rallyCount, stroke);
 
         }
