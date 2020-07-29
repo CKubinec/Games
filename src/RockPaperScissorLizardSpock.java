@@ -18,6 +18,7 @@ public class RockPaperScissorLizardSpock {
                 System.out.println("Final Score:");
                 System.out.println("Player 1: " + player1Wins);
                 System.out.println("Player 2: " + player2Wins);
+                System.exit(0);
             }
             String player1Attack = getAttack();
             String player2Attack = getAttack();
