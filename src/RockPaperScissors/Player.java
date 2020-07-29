@@ -11,7 +11,15 @@ public class Player implements Runnable {
     }
 
     public synchronized void run() {
-        
+        boolean noAttack = true;
+        while (noAttack) {
+            try {
+                getAttack();
+                noAttack = false;
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     public synchronized void getAttack() {
