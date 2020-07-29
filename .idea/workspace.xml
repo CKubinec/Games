@@ -41,7 +41,7 @@
   </component>
   <component name="RunManager" selected="Application.Badminton">
     <configuration name="Badminton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Badminton" />
+      <option name="MAIN_CLASS_NAME" value="Badminton.Badminton" />
       <module name="craigkubinec-comp308-home-exam" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -50,7 +50,7 @@
     <configuration name="ScoreCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-14" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ScoreCard" />
+      <option name="MAIN_CLASS_NAME" value="Badminton.ScoreCard" />
       <module name="craigkubinec-comp308-home-exam" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596043958910</updated>
-      <workItem from="1596043961009" duration="11768000" />
+      <workItem from="1596043961009" duration="12081000" />
     </task>
     <servers />
   </component>
@@ -102,22 +102,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596046736410" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1596055724514">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1596056075168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596055724514" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1596055724514">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596056075168" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1596056075168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596055724514" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1596055724514">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596056075168" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1596056075168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596055724514" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1596055724514">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596056075168" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1596056075168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596055724514" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596056075168" />
     <state x="540" y="255" key="IDE.errors.dialog" timestamp="1596046789418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
