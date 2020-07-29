@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class ScoreCard {
+import java.util.ArrayList;
+import java.util.List;
+
+public class ScoreCard {
+    private List<ArrayList>
 }
