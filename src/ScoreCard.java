@@ -34,7 +34,7 @@ public class ScoreCard {
             }
             System.out.println("Which player wins rally " + rallyCount + "?");
             System.out.print("1 - Player1\n" +
-                    "2-Player2");
+                    "2- Player2\n");
             winningPlayer = scanner.nextInt();
             boolean properSelection = true;
             while (properSelection)
