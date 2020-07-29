@@ -69,9 +69,8 @@ public class ScoreCard {
                     winningPlayer = scanner.nextInt();
                 }
             }
-
-                winningStrokes.add(rallyCount, stroke);
-                rallyCount++;
+            winningStrokes.add(rallyCount, stroke);
+            rallyCount++;
         }
     }
 
@@ -95,6 +94,6 @@ public class ScoreCard {
     }
 
     public void printScore(){
-        System.out.printf ("%-30s %1.7f %s%n", , , );
+        System.out.printf ("%-30s %1.7s %s%n", rallyCount, player1Score, player2Score,  );
     }
 }
