@@ -4,5 +4,7 @@ public class RockPaperScissorLizardSpock {
 
     }
 
-    public String get
+    public String getAttack() {
+        
+    }
 }
