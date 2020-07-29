@@ -28,7 +28,7 @@ public class RockPaperScissorLizardSpock {
             Thread t2 = new Thread(player2);
             t2.start();
             try {
-                Thread.sleep(1000);
+                Thread.sleep(3000);
             } catch (InterruptedException e){
                 e.printStackTrace();
             }
