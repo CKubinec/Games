@@ -39,10 +39,23 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
-  <component name="RunManager" selected="Application.Badminton">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Badminton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Badminton.Badminton" />
       <module name="craigkubinec-comp308-home-exam" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Badminton.Main" />
+      <module name="craigkubinec-comp308-home-exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Badminton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -70,9 +83,11 @@
     <list>
       <item itemvalue="Application.Badminton" />
       <item itemvalue="Application.ScoreCard" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Badminton" />
         <item itemvalue="Application.ScoreCard" />
       </list>
@@ -86,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596043958910</updated>
-      <workItem from="1596043961009" duration="13640000" />
+      <workItem from="1596043961009" duration="14990000" />
     </task>
     <servers />
   </component>
@@ -98,26 +113,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596047223376" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1596046736410">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1596058082009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596046736410" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1596057580094">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596058082009" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1596058981078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596057580094" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1596057580093">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596058981078" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1596058981078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596057580093" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1596057580093">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596058981078" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1596058981078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596057580093" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1596057580094">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596058981078" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1596058981078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596057580094" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596058981078" />
     <state x="540" y="255" key="IDE.errors.dialog" timestamp="1596057603289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

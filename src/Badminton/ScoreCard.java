@@ -19,98 +19,54 @@ public class ScoreCard {
     }
 
 
-    public void rally() {
-        boolean run = true;
-        while (run) {
-            int winningPlayer;
-            int winningStroke;
-            String stroke = "";
-            if (rallyCount == 0){
-                player1Wins.add(rallyCount, 0);
-                player2Wins.add(rallyCount, 0);
-                winningStrokes.add(rallyCount, "");
-                rallyCount++;
-                rally();
-            }
-            System.out.println("Which player wins rally " + rallyCount + "?");
-            System.out.print("1 - Player1\n" +
-                    "2 - Player2\n");
-            winningPlayer = scanner.nextInt();
-            boolean properSelection = false;
-            while (!properSelection) {
-                if (winningPlayer == 1) {
-                    player1Score++;
-                    System.out.println("How did Player1 win this rally?");
-                    System.out.print("1. Smash\n" +
-                            "2. Slice\n" +
-                            "3. Net\n" +
-                            "4. Drop\n" +
-                            "5. Drive\n");
-                    winningStroke = scanner.nextInt();
-                    stroke = getStroke(winningStroke);
-                    player1Wins.add(rallyCount, player1Score);
-                    player2Wins.add(rallyCount, null);
-                    properSelection = true;
-                } else if (winningPlayer == 2) {
-                    player2Score++;
-                    System.out.println("How did Player2 win this rally?");
-                    System.out.print("1. Smash\n" +
-                            "2. Slice\n" +
-                            "3. Net\n" +
-                            "4. Drop\n" +
-                            "5. Drive\n");
-                    winningStroke = scanner.nextInt();
-                    stroke = getStroke(winningStroke);
-                    player1Wins.add(rallyCount, null);
-                    player2Wins.add(rallyCount, player2Score);
-                    properSelection = true;
-                } else {
-                    System.out.println("Improper selection");
-                    properSelection = false;
-                    System.out.println("Which player wins rally " + rallyCount + "?");
-                    System.out.print("1 - Player1\n" +
-                            "2-Player2");
-                    winningPlayer = scanner.nextInt();
-                }
-            }
-            winningStrokes.add(rallyCount, stroke);
-            rallyCount++;
-            System.out.println(player1Score);
-            printScore();
-            if (player1Score == 21 || player2Score == 21){
-                run = false;
-            }
-        }
-        System.out.println("GAME OVER");
-        System.out.println("RockPaperScissors.Player 1 had "+ maxInARowWins(player1Wins) + " points in a row!" );
-        System.out.println("RockPaperScissors.Player 2 had "+ maxInARowWins(player2Wins) + " points in a row!" );
-        System.out.print("RockPaperScissors.Player 1 had ");
-        bestStroke(player1Wins, winningStrokes);
-        System.out.print(" this Match which was there max!\n");
-        System.out.print("RockPaperScissors.Player 2 had ");
-        bestStroke(player2Wins, winningStrokes);
-        System.out.print(" this Match which was there max!\n");
-        System.exit(0);
+    public int getPlayer1Score() {
+        return player1Score;
     }
 
-    public String getStroke(int number){
-        String stroke;
-        switch (number){
-            case 1: stroke = "Smash";
-                break;
-            case 2: stroke = "Slice";
-                break;
-            case 3: stroke = "Net";
-                break;
-            case 4: stroke = "Drop";
-                break;
-            case 5: stroke = "Drive";
-                break;
-            default: stroke = "None";
-                break;
-        }
-        return stroke;
+    public void setPlayer1Score(int player1Score) {
+        this.player1Score = player1Score;
     }
+
+    public int getPlayer2Score() {
+        return player2Score;
+    }
+
+    public void setPlayer2Score(int player2Score) {
+        this.player2Score = player2Score;
+    }
+
+    public ArrayList<Integer> getPlayer1Wins() {
+        return player1Wins;
+    }
+
+    public void setPlayer1Wins(ArrayList<Integer> player1Wins) {
+        this.player1Wins = player1Wins;
+    }
+
+    public ArrayList<Integer> getPlayer2Wins() {
+        return player2Wins;
+    }
+
+    public void setPlayer2Wins(ArrayList<Integer> player2Wins) {
+        this.player2Wins = player2Wins;
+    }
+
+    public ArrayList<String> getWinningStrokes() {
+        return winningStrokes;
+    }
+
+    public void setWinningStrokes(ArrayList<String> winningStrokes) {
+        this.winningStrokes = winningStrokes;
+    }
+
+    public int getRallyCount() {
+        return rallyCount;
+    }
+
+    public void setRallyCount(int rallyCount) {
+        this.rallyCount = rallyCount;
+    }
+
 
     public void printScore(){
         System.out.printf("%-10s %1.7s %1.7s %s%n", "Rally #", "Player1", "Player2", "Winning Stroke");
