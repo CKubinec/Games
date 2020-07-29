@@ -81,6 +81,7 @@ public class ScoreCard {
         System.out.println("GAME OVER");
         System.out.println("Player 1 had "+ maxInARowWins(player1Wins) + " points in a row!" );
         System.out.println("Player 2 had "+ maxInARowWins(player2Wins) + " points in a row!" );
+
         System.exit(0);
     }
 
@@ -124,5 +125,29 @@ public class ScoreCard {
             }
         }
         return max;
+    }
+
+    public void bestStroke(ArrayList<String> player, ArrayList<String> winningStrokes){
+        int smash = 0;
+        int slice = 0;
+        int net = 0;
+        int drop = 0;
+        int drive = 0;
+        for (int i = 1; i < winningStrokes.size(); i++) {
+            if (player.get(i) != null){
+                switch (winningStrokes.get(i)){
+                    case "Smash": smash++;
+                    break;
+                    case "Slice": slice++;
+                    break;
+                    case "Net": net++;
+                    break;
+                    case "Drop": drop++;
+                    break;
+                    case "Drive": drive++;
+                }
+            }
+        }
+        if ()
     }
 }
