@@ -75,6 +75,8 @@ public class ScoreCard {
             printScore();
         }
         System.out.println("GAME OVER");
+        maxInARowWins(player1Wins);
+        maxInARowWins(player2Wins);
         System.exit(0);
     }
 
@@ -104,8 +106,18 @@ public class ScoreCard {
         }
     }
 
-    public void maxInARowWins(){
+    public void maxInARowWins(ArrayList<Integer> array){
         int max = 0;
-        for
+        int currentCount = 0;
+        for (int i = 0; i < array.size(); i++) {
+            if (array.get(i) != null){
+                currentCount++;
+                if (currentCount > max){
+                    max = currentCount;
+                }
+            } else {
+                currentCount = 0;
+            }
+        }
     }
 }
