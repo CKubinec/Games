@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class ScoreCard {
     private int player1Score;
     private int player2Score;
-    private ArrayList<Integer> player1Wins;
-    private ArrayList<Integer> player2Wins;
-    private ArrayList<String> winningStrokes;
+    private ArrayList<Integer> player1Wins = new ArrayList<>();
+    private ArrayList<Integer> player2Wins = new ArrayList<>();
+    private ArrayList<String> winningStrokes = new ArrayList<>();
     Scanner scanner = new Scanner(System.in);
     private int rallyCount = 0;
 
