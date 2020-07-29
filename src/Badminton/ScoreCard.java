@@ -114,7 +114,7 @@ public class ScoreCard {
      */
     public void printScore() {
         System.out.printf("%-10s %1.7s %1.7s %s%n", "Rally #", "Player1", "Player2", "Winning Stroke");
-        for (int i = 0; i < rallyCount; i++) {
+        for (int i = 1; i < rallyCount; i++) {
             System.out.printf("%-10s %5s %7s %10s%n", i, player1Wins.get(i), player2Wins.get(i), winningStrokes.get(i));
         }
     }
