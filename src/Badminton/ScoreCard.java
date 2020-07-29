@@ -5,6 +5,8 @@ import java.util.Collections;
 
 /**
  * The type Score card.
+ *
+ * @author Craig Kubinec ID:3433193
  */
 public class ScoreCard {
     private int player1Score;

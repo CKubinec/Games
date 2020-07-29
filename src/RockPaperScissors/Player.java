@@ -4,6 +4,8 @@ import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * The type Player.
+ *
+ * @author Craig Kubinec ID:3433193
  */
 public class Player implements Runnable {
 

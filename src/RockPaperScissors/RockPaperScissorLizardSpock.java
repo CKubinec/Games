@@ -2,6 +2,8 @@ package RockPaperScissors;
 
 /**
  * The game Rock paper scissor lizard spock.
+ *
+ * @author Craig Kubinec ID:3433193
  */
 public class RockPaperScissorLizardSpock {
     /**

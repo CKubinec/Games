@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 /**
  * The type Badminton.
+ *
+ * @author Craig Kubinec ID:3433193
  */
 public class Badminton {
     /**
