@@ -150,9 +150,15 @@ public class ScoreCard {
                 }
             }
         }
+        ArrayList<Integer> array = new ArrayList<Integer>();
+        array.add(smash);
+        array.add(slice);
+        array.add(net);
+        array.add(drop);
+        array.add(drive);
+        
         int largest = Collections.max(Arrays.asList(slice, smash, net, drop, drive));
-        String best = Collections.max(Arrays.asList(slice, smash, net, drop, drive)).TYPE.getSimpleName();
-        System.out.println(best);
+        System.out.println();
         System.out.println(largest);
     }
 }
