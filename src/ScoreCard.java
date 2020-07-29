@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ScoreCard {
     private int player1Score;
     private int player2Score;
-    private ArrayList<String> scoreList;
+    private ArrayList<ArrayList<Integer>> scoreList;
     Scanner scanner = new Scanner(System.in);
 
     public ScoreCard(ArrayList<String> scoreList) {
