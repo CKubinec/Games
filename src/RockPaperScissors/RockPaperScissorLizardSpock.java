@@ -23,8 +23,6 @@ public class RockPaperScissorLizardSpock {
                 System.out.println("Player 2: " + player2Wins);
                 System.exit(0);
             }
-            player1.getAttack();
-            player2.getAttack();
             Thread t = new Thread(player1);
             t.start();
             Thread t2 = new Thread(player2);
