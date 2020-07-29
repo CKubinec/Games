@@ -71,6 +71,9 @@ public class ScoreCard {
             }
                 winningStrokes.add(rallyCount, stroke);
                 rallyCount++;
+            System.out.println(winningStrokes);
+            System.out.println(player1Wins);
+            System.out.println(player2Wins);
 
 
         }
