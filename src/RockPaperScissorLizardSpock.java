@@ -9,7 +9,12 @@ public class RockPaperScissorLizardSpock {
     public void play(){
         int player1Wins;
         int player2Wins;
-        
+        boolean noWinner = true;
+        while(noWinner){
+            String player1Attack = getAttack();
+            String player2Attack = getAttack();
+            
+        }
     }
 
     public String getAttack() {
