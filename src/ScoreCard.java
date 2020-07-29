@@ -69,6 +69,7 @@ public class ScoreCard {
                     winningPlayer = scanner.nextInt();
                 }
             }
+
                 winningStrokes.add(rallyCount, stroke);
                 rallyCount++;
             System.out.println(winningStrokes);
@@ -97,4 +98,6 @@ public class ScoreCard {
         }
         return stroke;
     }
+
+    pu
 }
