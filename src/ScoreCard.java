@@ -17,7 +17,7 @@ public class ScoreCard {
 
 
     public void rally() {
-        while (player1Score != 21) {
+        while (player1Score != 21 || player2Score != 21) {
             int winningPlayer;
             int winningStroke;
             String stroke = "";
@@ -75,8 +75,8 @@ public class ScoreCard {
             printScore();
         }
         System.out.println("GAME OVER");
-        System.out.print("Player 1 had "+ maxInARowWins(player1Wins) + " in a row!" );
-        System.out.print("Player 2 had "+ maxInARowWins(player2Wins) + " in a row!" );
+        System.out.println("Player 1 had "+ maxInARowWins(player1Wins) + " points in a row!" );
+        System.out.println("Player 2 had "+ maxInARowWins(player2Wins) + " points in a row!" );
         System.exit(0);
     }
 
