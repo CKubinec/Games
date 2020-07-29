@@ -15,13 +15,20 @@ public class RockPaperScissorLizardSpock {
             String player2Attack = getAttack();
 
             if(player1Attack.equals("Rock")){
-                if(player2Attack.equals("Paper")){
-                    System.out.println("Player 2s Paper covers Player 1s Rock");
-                    player2Wins++;
-                } else if (player2Attack.equals("Lizard")){
-                    System.out.println("Player 1s Rock crushes Player 2s Lizard");
-                    player1Wins++;
-                } else if (player2Attack.equals(""))
+                switch (player2Attack) {
+                    case "Paper":
+                        System.out.println("Player 2s Paper covers Player 1s Rock");
+                        player2Wins++;
+                        break;
+                    case "Lizard":
+                        System.out.println("Player 1s Rock crushes Player 2s Lizard");
+                        player1Wins++;
+                        break;
+                    case "Scissors":
+                        System.out.println("Player 1s Rock breaks Player 2s Scissors");
+                        player1Wins++;
+                        break;
+                }
             }
         }
     }
