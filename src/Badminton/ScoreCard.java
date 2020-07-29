@@ -3,6 +3,9 @@ package Badminton;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * The type Score card.
+ */
 public class ScoreCard {
     private int player1Score;
     private int player2Score;
@@ -11,61 +14,100 @@ public class ScoreCard {
     private ArrayList<String> winningStrokes = new ArrayList<>();
     private int rallyCount = 0;
 
+    /**
+     * Instantiates a new Score card.
+     */
     public ScoreCard() {
         player1Score = 0;
         player2Score = 0;
     }
 
 
+    /**
+     * Gets player 1 score.
+     *
+     * @return the player 1 score
+     */
     public int getPlayer1Score() {
         return player1Score;
     }
 
+    /**
+     * Sets player 1 score.
+     *
+     * @param player1Score the player 1 score
+     */
     public void setPlayer1Score(int player1Score) {
         this.player1Score = player1Score;
     }
 
+    /**
+     * Gets player 2 score.
+     *
+     * @return the player 2 score
+     */
     public int getPlayer2Score() {
         return player2Score;
     }
 
+    /**
+     * Sets player 2 score.
+     *
+     * @param player2Score the player 2 score
+     */
     public void setPlayer2Score(int player2Score) {
         this.player2Score = player2Score;
     }
 
+    /**
+     * Gets player 1 wins.
+     *
+     * @return the player 1 wins
+     */
     public ArrayList<Integer> getPlayer1Wins() {
         return player1Wins;
     }
 
-    public void setPlayer1Wins(ArrayList<Integer> player1Wins) {
-        this.player1Wins = player1Wins;
-    }
-
+    /**
+     * Gets player 2 wins.
+     *
+     * @return the player 2 wins
+     */
     public ArrayList<Integer> getPlayer2Wins() {
         return player2Wins;
     }
 
-    public void setPlayer2Wins(ArrayList<Integer> player2Wins) {
-        this.player2Wins = player2Wins;
-    }
-
+    /**
+     * Gets winning strokes.
+     *
+     * @return the winning strokes
+     */
     public ArrayList<String> getWinningStrokes() {
         return winningStrokes;
     }
 
-    public void setWinningStrokes(ArrayList<String> winningStrokes) {
-        this.winningStrokes = winningStrokes;
-    }
-
+    /**
+     * Gets rally count.
+     *
+     * @return the rally count
+     */
     public int getRallyCount() {
         return rallyCount;
     }
 
+    /**
+     * Sets rally count.
+     *
+     * @param rallyCount the rally count
+     */
     public void setRallyCount(int rallyCount) {
         this.rallyCount = rallyCount;
     }
 
 
+    /**
+     * Prints the score to console.
+     */
     public void printScore() {
         System.out.printf("%-10s %1.7s %1.7s %s%n", "Rally #", "Player1", "Player2", "Winning Stroke");
         for (int i = 0; i < rallyCount; i++) {
@@ -73,6 +115,9 @@ public class ScoreCard {
         }
     }
 
+    /**
+     * Prints stats to the console.
+     */
     public void printStats() {
         System.out.println("GAME OVER");
         System.out.println("Player 1 had " + maxInARowWins(getPlayer1Wins()) + " points in a row!");
@@ -86,6 +131,12 @@ public class ScoreCard {
         System.exit(0);
     }
 
+    /**
+     * Calculates the max amount of a wins a player had in a row.
+     *
+     * @param array the array
+     * @return the int
+     */
     public int maxInARowWins(ArrayList<Integer> array) {
         int max = 0;
         int currentCount = 0;
@@ -102,6 +153,12 @@ public class ScoreCard {
         return max;
     }
 
+    /**
+     * Calculates the Players most won with stroke.
+     *
+     * @param player         the player
+     * @param winningStrokes the winning strokes
+     */
     public void bestStroke(ArrayList<Integer> player, ArrayList<String> winningStrokes) {
         int smash = 0;
         int slice = 0;
@@ -137,7 +194,7 @@ public class ScoreCard {
         array.add(drive);
         int largest = Collections.max(array);
         if (largest == smash) {
-            stroke = "Smashs";
+            stroke = "Smashes";
         } else if (largest == slice) {
             stroke = "Slices";
         } else if (largest == net) {
