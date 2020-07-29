@@ -3,6 +3,12 @@ import java.util.concurrent.ThreadLocalRandom;
 public class RockPaperScissorLizardSpock {
 
     public RockPaperScissorLizardSpock() {
+
+    }
+
+    public void play(){
+        int player1Wins;
+        int player2Wins;
         
     }
 
