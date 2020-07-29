@@ -12,6 +12,13 @@ public class RockPaperScissorLizardSpock {
         int player2Wins = 0;
         boolean noWinner = true;
         while (noWinner) {
+            if (rounds == 10){
+                noWinner = false;
+                System.out.println("Max Rounds hit!!!");
+                System.out.println("Final Score:");
+                System.out.println("Player 1: " + player1Wins);
+                System.out.println("Player 2: " + player2Wins);
+            }
             String player1Attack = getAttack();
             String player2Attack = getAttack();
 
@@ -149,13 +156,7 @@ public class RockPaperScissorLizardSpock {
                 noWinner = false;
                 System.out.println("Player 2 Wins!!!!");
             }
-            if (rounds == 10){
-                noWinner = false;
-                System.out.println("Max Rounds hit!!!");
-                System.out.println("Final Score:");
-                System.out.println("Player 1: " + player1Wins);
-                System.out.println("Player 2: " + player2Wins);
-            }
+
         }
     }
 
