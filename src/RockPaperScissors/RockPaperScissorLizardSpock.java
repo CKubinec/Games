@@ -1,11 +1,11 @@
 package RockPaperScissors;
 
-import java.util.concurrent.ThreadLocalRandom;
-
 public class RockPaperScissorLizardSpock {
+    Player player1 = new Player();
+    Player player2 = new Player();
 
     public RockPaperScissorLizardSpock() {
-
+       play();
     }
 
     public void play() {
@@ -22,8 +22,8 @@ public class RockPaperScissorLizardSpock {
                 System.out.println("RockPaperScissors.Player 2: " + player2Wins);
                 System.exit(0);
             }
-            String player1Attack = getAttack();
-            String player2Attack = getAttack();
+            String player1Attack = player1.getAttack();
+            String player2Attack = player2.getAttack();
 
             if (player1Attack.equals("Rock")) {
                 switch (player2Attack) {
@@ -161,30 +161,5 @@ public class RockPaperScissorLizardSpock {
             }
 
         }
-    }
-
-    public String getAttack() {
-        int random = ThreadLocalRandom.current().nextInt(1, 6);
-        String attack;
-        switch (random) {
-            case 1:
-                attack = "Rock";
-                break;
-            case 2:
-                attack = "Paper";
-                break;
-            case 3:
-                attack = "Scissors";
-                break;
-            case 4:
-                attack = "Lizard";
-                break;
-            case 5:
-                attack = "Spock";
-                break;
-            default:
-                attack = "Nothing";
-        }
-        return attack;
     }
 }
