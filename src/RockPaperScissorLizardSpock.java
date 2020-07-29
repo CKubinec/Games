@@ -84,7 +84,7 @@ public class RockPaperScissorLizardSpock {
                         player2Wins++;
                         break;
                     case "Scissors":
-                        System.out.println("Player 1 Spock smashes Player 2s Scissors");
+                        System.out.println("Player 1s Spock smashes Player 2s Scissors");
                         player1Wins++;
                         break;
                     case "Spock":
