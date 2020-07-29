@@ -94,6 +94,6 @@ public class ScoreCard {
     }
 
     public void printScore(){
-        System.out.printf ("%-30s %1.7s %s%n", rallyCount, player1Score, player2Score,  );
+        System.out.printf ("%-30i %1.7i %1.7i %s%n", rallyCount, player1Score, player2Score,  );
     }
 }
