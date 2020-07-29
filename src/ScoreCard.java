@@ -103,4 +103,9 @@ public class ScoreCard {
             System.out.printf("%-10s %5s %7s %10s%n", i, player1Wins.get(i), player2Wins.get(i), winningStrokes.get(i));
         }
     }
+
+    public void maxInARowWins(){
+        int max = 0;
+        for
+    }
 }
