@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class ScoreCard {
@@ -81,7 +83,7 @@ public class ScoreCard {
         System.out.println("GAME OVER");
         System.out.println("Player 1 had "+ maxInARowWins(player1Wins) + " points in a row!" );
         System.out.println("Player 2 had "+ maxInARowWins(player2Wins) + " points in a row!" );
-
+        bestStroke(player1Wins, winningStrokes);
         System.exit(0);
     }
 
@@ -127,7 +129,7 @@ public class ScoreCard {
         return max;
     }
 
-    public void bestStroke(ArrayList<String> player, ArrayList<String> winningStrokes){
+    public void bestStroke(ArrayList<Integer> player, ArrayList<String> winningStrokes){
         int smash = 0;
         int slice = 0;
         int net = 0;
@@ -148,6 +150,9 @@ public class ScoreCard {
                 }
             }
         }
-        if ()
+        int largest = Collections.max(Arrays.asList(slice, smash, net, drop, drive));
+        String best = Collections.max(Arrays.asList(slice, smash, net, drop, drive)).TYPE.getSimpleName();
+        System.out.println(best);
+        System.out.println(largest);
     }
 }
