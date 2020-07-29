@@ -1,0 +1,15 @@
+image: openjdk:11-jdk
+
+# Stages
+stages:
+    - build
+
+# Jobs
+sonar-scanner:
+    stage: build
+    tags:
+        - 2code
+        - comp308
+        - java
+    script: 
+        - /opt/sonar-scanner/bin/sonar-scanner
