@@ -12,7 +12,8 @@ public class ScoreCard {
     }
 
     public void rally(){
-        int rallyCount = 0;
-        
+        int rallyCount = 1;
+        System.out.print("Which player wins rally " + rallyCount);
+        scanner.nextLine();
     }
 }
