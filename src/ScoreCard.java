@@ -10,7 +10,8 @@ public class ScoreCard {
     Scanner scanner = new Scanner(System.in);
 
     public ScoreCard() {
-
+        player1Score = 0;
+        player2Score = 0;
     }
 
     public void rally(){
@@ -33,6 +34,7 @@ public class ScoreCard {
             boolean properSelection = true;
             while (properSelection)
                 if (winningPlayer == 1) {
+                    player1Score++;
                     System.out.println("How did Player1 win this rally?");
                     System.out.print("1. Smash\n" +
                             "2. Slice\n" +
@@ -41,6 +43,7 @@ public class ScoreCard {
                             "5. Drive\n");
                     winningStroke = scanner.nextInt();
                 } else if (winningPlayer == 2) {
+                    player2Score++;
                     System.out.println("How did Player2 win this rally?");
                     System.out.print("1. Smash\n" +
                             "2. Slice\n" +
