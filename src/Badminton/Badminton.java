@@ -38,8 +38,8 @@ public class Badminton {
             int winningStroke;
             String stroke = "";
             if (scoreCard.getRallyCount() == 0) {
-                scoreCard.getPlayer1Wins().add(scoreCard.getRallyCount(), 0);
-                scoreCard.getPlayer2Wins().add(scoreCard.getRallyCount(), 0);
+                scoreCard.getPlayer1Wins().add(scoreCard.getRallyCount(), null);
+                scoreCard.getPlayer2Wins().add(scoreCard.getRallyCount(), null);
                 scoreCard.getWinningStrokes().add(scoreCard.getRallyCount(), "");
                 scoreCard.setRallyCount(scoreCard.getRallyCount() + 1);
                 rally();
