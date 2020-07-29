@@ -39,7 +39,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MainBadminton">
     <configuration name="Badminton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Badminton.Badminton" />
       <module name="craigkubinec-comp308-home-exam" />
@@ -47,8 +47,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Badminton.Main" />
+    <configuration name="MainBadminton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Badminton.MainBadminton" />
       <module name="craigkubinec-comp308-home-exam" />
       <extension name="coverage">
         <pattern>
@@ -83,11 +83,11 @@
     <list>
       <item itemvalue="Application.Badminton" />
       <item itemvalue="Application.ScoreCard" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MainBadminton" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainBadminton" />
         <item itemvalue="Application.Badminton" />
         <item itemvalue="Application.ScoreCard" />
       </list>

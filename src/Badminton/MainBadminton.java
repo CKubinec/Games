@@ -1,6 +1,6 @@
 package Badminton;
 
-public class Main {
+public class MainBadminton {
 
     public static void main(String[] args) {
         ScoreCard scoreCard = new ScoreCard();

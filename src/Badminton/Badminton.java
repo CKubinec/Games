@@ -77,7 +77,7 @@ public class Badminton {
         System.out.print("Player 1 had ");
         scoreCard.bestStroke(scoreCard.getPlayer1Wins(), scoreCard.getWinningStrokes());
         System.out.print(" this Match which was there max!\n");
-        System.out.print("RockPaperScissors.Player 2 had ");
+        System.out.print("Player 2 had ");
         scoreCard.bestStroke(scoreCard.getPlayer2Wins(), scoreCard.getWinningStrokes());
         System.out.print(" this Match which was there max!\n");
         System.exit(0);
