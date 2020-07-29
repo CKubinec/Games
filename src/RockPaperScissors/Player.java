@@ -14,6 +14,7 @@ public class Player implements Runnable {
         boolean noAttack = true;
         while (noAttack) {
             try {
+                System.out.println("HERe?");
                 getAttack();
                 noAttack = false;
             } catch (Exception e) {
