@@ -15,6 +15,11 @@ public class ScoreCard {
         player2Score = 0;
     }
 
+    public static void main(String[] args) {
+        ScoreCard scoreCard = new ScoreCard();
+        scoreCard.rally();
+    }
+
     public void rally() {
         while (player1Score != 21 || player2Score != 21) {
             int winningPlayer;
