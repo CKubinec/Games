@@ -27,10 +27,23 @@ public class RockPaperScissorLizardSpock {
             t.start();
             Thread t2 = new Thread(player2);
             t2.start();
-            try {
-                Thread.sleep(3000);
-            } catch (InterruptedException e){
-                e.printStackTrace();
+            for (int i = 0; i < 5; i++){
+                if (i == 0){
+                    System.out.print("Rock");
+                } else if (i == 1){
+                    System.out.print(", Paper");
+                } else if (i == 2){
+                    System.out.print(", Scissors ");
+                } else if (i == 3){
+                    System.out.print(", Lizard ");
+                } else if (i == 4){
+                    System.out.print(", Spock!\n");
+                }
+                try {
+                    Thread.sleep(500);
+                } catch (Exception e){
+                    e.printStackTrace();
+                }
             }
             if (player1.attackName.equals("Rock")) {
                 switch (player2.attackName) {
