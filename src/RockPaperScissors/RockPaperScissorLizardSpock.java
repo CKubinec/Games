@@ -22,8 +22,10 @@ public class RockPaperScissorLizardSpock {
                 System.out.println("Player 2: " + player2Wins);
                 System.exit(0);
             }
-            String player1Attack = player1.getAttack();
-            String player2Attack = player2.getAttack();
+            Thread t = new Thread(player1);
+            t.start();
+            Thread t2 = new Thread(player2);
+            t2.start();
 
             if (player1Attack.equals("Rock")) {
                 switch (player2Attack) {

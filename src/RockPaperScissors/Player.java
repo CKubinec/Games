@@ -1,12 +1,26 @@
 package RockPaperScissors;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class Player {
+public class Player implements Runnable{
+
+    String attackName;
 
     public Player() {
 
     }
-    public String getAttack() {
+
+    public synchronized void run() {
+        while (true) {
+            try {
+                wait();
+            } catch (InterruptedException e){
+                e.printStackTrace();
+            }
+            attackName = getAttack();
+            notify();
+        }
+    }
+    public synchronized String getAttack() {
         int random = ThreadLocalRandom.current().nextInt(1, 6);
         String attack;
         switch (random) {
