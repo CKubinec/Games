@@ -48,6 +48,8 @@ public class ScoreCard {
                             "5. Drive\n");
                     winningStroke = scanner.nextInt();
                     stroke = getStroke(winningStroke);
+                    player1Wins.add(rallyCount, player1Score);
+                    player2Wins.add(rallyCount, null);
                     properSelection = true;
                 } else if (winningPlayer == 2) {
                     player2Score++;
@@ -59,6 +61,8 @@ public class ScoreCard {
                             "5. Drive\n");
                     winningStroke = scanner.nextInt();
                     stroke = getStroke(winningStroke);
+                    player1Wins.add(rallyCount, null);
+                    player2Wins.add(rallyCount, player2Score);
                     properSelection = true;
                 } else {
                     System.out.println("Improper selection");
@@ -98,6 +102,4 @@ public class ScoreCard {
         }
         return stroke;
     }
-
-    pu
 }
