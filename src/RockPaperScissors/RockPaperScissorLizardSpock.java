@@ -173,11 +173,11 @@ public class RockPaperScissorLizardSpock {
             rounds++;
             if (player1Wins == 4) {
                 noWinner = false;
-                System.out.println("Player 1 Wins!!!!");
+                System.out.println("Player 1 Wins with a score of " + player1Wins + ":" + player2Wins);
             }
             if (player2Wins == 4) {
                 noWinner = false;
-                System.out.println("Player 2 Wins!!!!");
+                System.out.println("Player 2 Wins with a score of " + player2Wins + ":" + player1Wins);
             }
 
         }
