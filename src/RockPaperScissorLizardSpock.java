@@ -7,6 +7,7 @@ public class RockPaperScissorLizardSpock {
     }
 
     public void play() {
+        int rounds = 0;
         int player1Wins = 0;
         int player2Wins = 0;
         boolean noWinner = true;
@@ -139,6 +140,7 @@ public class RockPaperScissorLizardSpock {
                         break;
                 }
             }
+            rounds++;
             if (player1Wins == 4){
                 noWinner = false;
                 System.out.println("Player 1 Wins!!!!");
@@ -146,6 +148,13 @@ public class RockPaperScissorLizardSpock {
             if (player2Wins == 4){
                 noWinner = false;
                 System.out.println("Player 2 Wins!!!!");
+            }
+            if (rounds == 10){
+                noWinner = false;
+                System.out.println("Max Rounds hit!!!");
+                System.out.println("Final Score:");
+                System.out.println("Player 1: " + player1Wins);
+                System.out.println("Player 2: " + player2Wins);
             }
         }
     }
