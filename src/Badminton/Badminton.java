@@ -7,6 +7,5 @@ public class Badminton {
         //Badminton.ScoreCard scoreCard = new Badminton.ScoreCard();
         //scoreCard.rally();
         RockPaperScissorLizardSpock rps = new RockPaperScissorLizardSpock();
-        rps.play();
     }
 }
