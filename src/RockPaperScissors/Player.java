@@ -7,7 +7,7 @@ public class Player implements Runnable {
     String attackName;
 
     public Player() {
-        
+
     }
 
     public synchronized void run() {
