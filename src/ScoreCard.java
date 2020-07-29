@@ -15,10 +15,6 @@ public class ScoreCard {
         player2Score = 0;
     }
 
-    public static void main(String[] args) {
-       ScoreCard scoreCard = new ScoreCard();
-       scoreCard.rally();
-    }
 
     public void rally() {
         while (player1Score != 21 || player2Score != 21) {
@@ -76,11 +72,6 @@ public class ScoreCard {
 
                 winningStrokes.add(rallyCount, stroke);
                 rallyCount++;
-            System.out.println(winningStrokes);
-            System.out.println(player1Wins);
-            System.out.println(player2Wins);
-
-
         }
     }
 
@@ -101,5 +92,9 @@ public class ScoreCard {
                 break;
         }
         return stroke;
+    }
+
+    public void printScore(){
+        System.out.printf("");
     }
 }
