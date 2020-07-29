@@ -17,7 +17,8 @@ public class ScoreCard {
 
 
     public void rally() {
-        while (player1Score != 21 || player2Score != 21) {
+        boolean run = true;
+        while (run) {
             int winningPlayer;
             int winningStroke;
             String stroke = "";
@@ -73,6 +74,9 @@ public class ScoreCard {
             rallyCount++;
             System.out.println(player1Score);
             printScore();
+            if (player1Score == 21 || player2Score == 21){
+                run = false;
+            }
         }
         System.out.println("GAME OVER");
         System.out.println("Player 1 had "+ maxInARowWins(player1Wins) + " points in a row!" );
