@@ -10,7 +10,7 @@ public class Player implements Runnable{
     }
 
     public synchronized void run() {
-        getAttack();
+        attackName = getAttack();
     }
     public synchronized String getAttack() {
         int random = ThreadLocalRandom.current().nextInt(1, 6);
