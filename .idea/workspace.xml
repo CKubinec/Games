@@ -39,14 +39,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.MainBadminton">
-    <configuration name="Badminton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Badminton.Badminton" />
-      <module name="craigkubinec-comp308-home-exam" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MainRPS">
     <configuration name="MainBadminton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Badminton.MainBadminton" />
       <module name="craigkubinec-comp308-home-exam" />
@@ -73,15 +66,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoreCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-14" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Badminton.ScoreCard" />
-      <module name="craigkubinec-comp308-home-exam" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -94,17 +78,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Badminton" />
-      <item itemvalue="Application.ScoreCard" />
       <item itemvalue="Application.MainBadminton" />
       <item itemvalue="Application.MainRPS" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainBadminton" />
         <item itemvalue="Application.MainRPS" />
-        <item itemvalue="Application.Badminton" />
-        <item itemvalue="Application.ScoreCard" />
+        <item itemvalue="Application.MainBadminton" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596043958910</updated>
-      <workItem from="1596043961009" duration="18456000" />
+      <workItem from="1596043961009" duration="19256000" />
     </task>
     <servers />
   </component>
@@ -124,34 +104,34 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596047223376">
+    <state x="414" y="175" width="1092" height="834" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596063260918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596047223376" />
+    <state x="414" y="175" width="1092" height="834" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596063260918" />
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1596058082009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596058082009" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1596062106978">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1596063398795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596062106978" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1596062106978">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596063398795" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1596063398795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596062106978" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1596062106978">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596063398795" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1596063398794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596062106978" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1596062106978">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596063398794" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1596063398795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596062106978" />
-    <state x="540" y="255" key="IDE.errors.dialog" timestamp="1596057603289">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596063398795" />
+    <state x="540" y="255" key="IDE.errors.dialog" timestamp="1596063350887">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="255" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596057603289" />
+    <state x="540" y="255" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596063350887" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1596059470674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
