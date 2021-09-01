@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b2ca8d6-d14b-4314-a3c5-982aa42bace5" name="Default Changelist" comment="" />
+    <list default="true" id="6b2ca8d6-d14b-4314-a3c5-982aa42bace5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/craigkubinec-comp308-home-exam/Badminton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/craigkubinec-comp308-home-exam/Badminton/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/craigkubinec-comp308-home-exam/RockPaperScissorLizardSpock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/craigkubinec-comp308-home-exam/RockPaperScissors/RockPaperScissorLizardSpock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/craigkubinec-comp308-home-exam/RockPaperScissors/RockPaperScissorLizardSpock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/craigkubinec-comp308-home-exam/ScoreCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Badminton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Badminton/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RockPaperScissorLizardSpock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RockPaperScissorLizzardSpock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RockPaperScissors/RockPaperScissorLizardSpock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RockPaperScissors/RockPaperScissorLizardSpock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScoreCard.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1fPwPIITihpMEYi0ZDC4nI5qjEg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,8 +44,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -40,9 +62,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.MainRPS">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainBadminton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Badminton.MainBadminton" />
-      <module name="craigkubinec-comp308-home-exam" />
+      <module name="fun-games" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Badminton.*" />
@@ -55,7 +88,7 @@
     </configuration>
     <configuration name="MainRPS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RockPaperScissors.MainRPS" />
-      <module name="craigkubinec-comp308-home-exam" />
+      <module name="fun-games" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="RockPaperScissors.*" />
@@ -66,13 +99,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="fun-games" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="fun-games" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,48 +132,56 @@
       <option name="presentableId" value="Default" />
       <updated>1596043958910</updated>
       <workItem from="1596043961009" duration="19256000" />
+      <workItem from="1596133046302" duration="53000" />
+      <workItem from="1596133119565" duration="4083000" />
+      <workItem from="1596347443746" duration="689000" />
+      <workItem from="1598055179205" duration="295000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="175" width="1092" height="834" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596063260918">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" width="1092" height="834" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596063260918" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1596058082009">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596058082009" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1596063398795">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596063398795" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1596063398795">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596063398795" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1596063398794">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596063398794" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1596063398795">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596063398795" />
-    <state x="540" y="255" key="IDE.errors.dialog" timestamp="1596063350887">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="255" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596063350887" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1596059470674">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596059470674" />
-    <state x="755" y="267" key="refactoring.ChangeSignatureDialog" timestamp="1596046757637">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="755" y="267" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596046757637" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/Craig/IdeaProjects/craigkubinec-comp308-home-exam/src/Badminton" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

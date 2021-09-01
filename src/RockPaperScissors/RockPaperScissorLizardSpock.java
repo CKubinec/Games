@@ -37,7 +37,7 @@ public class RockPaperScissorLizardSpock {
         int player2Wins = 0;
         boolean noWinner = true;
         while (noWinner) {
-            if (rounds == 6) {
+            if (rounds == 8) {
                 noWinner = false;
                 System.out.println("Max Rounds hit!!!");
                 System.out.println("Final Score:");
