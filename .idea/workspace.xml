@@ -53,7 +53,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.MainRPS">
+  <component name="RunManager" selected="Application.MainBadminton">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -110,8 +110,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainRPS" />
         <item itemvalue="Application.MainBadminton" />
+        <item itemvalue="Application.MainRPS" />
       </list>
     </recent_temporary>
   </component>
